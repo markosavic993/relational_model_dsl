@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="Attribute_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.Attribute_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="Relax.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Relation_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.Relation_BehaviorDescriptor" />
+    </file>
+    <file name="Type_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.Type_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

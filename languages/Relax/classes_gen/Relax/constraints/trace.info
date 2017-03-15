@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,45,0" name="Relax.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c3b8ea72-3cd8-466a-a74c-d224df7f3a6f(Relax.constraints)/5520713118742068067">
+    <file name="Relation_Constraints.java">
+      <node id="5520713118742068067" at="9,33,10,132" concept="1" />
+      <node id="5520713118742068067" at="9,0,12,0" concept="0" trace="Relation_Constraints#()V" />
+      <scope id="5520713118742068067" at="9,33,10,132" />
+      <scope id="5520713118742068067" at="9,0,12,0" />
+      <unit id="5520713118742068067" at="8,0,14,0" name="Relax.constraints.Relation_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

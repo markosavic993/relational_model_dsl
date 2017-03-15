@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,34,0" name="Relax.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="20,0,83,0" name="Relax.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+</debug-info>
+
