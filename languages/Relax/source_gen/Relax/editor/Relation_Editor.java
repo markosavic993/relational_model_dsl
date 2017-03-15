@@ -44,7 +44,6 @@ public class Relation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_4myft4_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_4myft4_c0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_4myft4_d0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_4myft4_e0(editorContext, node));
     return editorCell;
   }
   private EditorCell createConstant_4myft4_a0(EditorContext editorContext, SNode node) {
@@ -90,8 +89,8 @@ public class Relation_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_4myft4_a3a(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4myft4_b3a(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4myft4_c3a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_4myft4_b3a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_4myft4_c3a(editorContext, node));
     return editorCell;
   }
   private EditorCell createRefNode_4myft4_a3a(EditorContext editorContext, SNode node) {
@@ -145,39 +144,15 @@ public class Relation_Editor extends DefaultNodeEditor {
       return "<no primary_key>";
     }
   }
-  private EditorCell createConstant_4myft4_b3a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes");
-    editorCell.setCellId("Constant_4myft4_b3a");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_4myft4_c3a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_4myft4_c3a");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createCollection_4myft4_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_4myft4_e0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, 0, false);
-    editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(this.createRefNodeList_4myft4_a4a(editorContext, node));
-    return editorCell;
-  }
-  private EditorCell createRefNodeList_4myft4_a4a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Relation_Editor.attributesListHandler_4myft4_a4a(node, "attributes", editorContext);
+  private EditorCell createRefNodeList_4myft4_b3a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Relation_Editor.attributesListHandler_4myft4_b3a(node, "attributes", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_attributes");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class attributesListHandler_4myft4_a4a extends RefNodeListHandler {
-    public attributesListHandler_4myft4_a4a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class attributesListHandler_4myft4_b3a extends RefNodeListHandler {
+    public attributesListHandler_4myft4_b3a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
@@ -200,7 +175,7 @@ public class Relation_Editor extends DefaultNodeEditor {
     }
     public EditorCell createEmptyCell(EditorContext editorContext) {
       editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(attributesListHandler_4myft4_a4a.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd73f82bL, "attributes")));
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(attributesListHandler_4myft4_b3a.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd73f82bL, "attributes")));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell(editorContext);
@@ -221,6 +196,57 @@ public class Relation_Editor extends DefaultNodeEditor {
           elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd73f82bL, "attributes"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
         }
       }
+    }
+  }
+  private EditorCell createRefNode_4myft4_c3a(EditorContext editorContext, SNode node) {
+    SingleRoleCellProvider provider = new Relation_Editor.foreign_keySingleRoleHandler_4myft4_c3a(node, MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd762779L, "foreign_key"), editorContext);
+    return provider.createCell();
+  }
+  private class foreign_keySingleRoleHandler_4myft4_c3a extends SingleRoleCellProvider {
+    public foreign_keySingleRoleHandler_4myft4_c3a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+      super(ownerNode, containmentLink, context);
+    }
+    protected EditorCell createChildCell(SNode child) {
+      myEditorContext.getCellFactory().pushCellContext();
+      myEditorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromNode(child));
+      try {
+        EditorCell editorCell = super.createChildCell(child);
+        editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(myOwnerNode, MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd762779L, "foreign_key"), child));
+        editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(myOwnerNode, MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd762779L, "foreign_key"), child));
+        installCellInfo(child, editorCell);
+        return editorCell;
+      } finally {
+        myEditorContext.getCellFactory().popCellContext();
+      }
+    }
+
+    protected boolean isCompatibilityMode() {
+      return false;
+    }
+
+    private void installCellInfo(SNode child, EditorCell editorCell) {
+      if (editorCell.getSubstituteInfo() == null || editorCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
+        editorCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(editorCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd762779L, "foreign_key"), child), new DefaultChildSubstituteInfo(myOwnerNode, myContainmentLink.getDeclarationNode(), myEditorContext)));
+      }
+      if (editorCell.getRole() == null) {
+        editorCell.setRole("foreign_key");
+      }
+    }
+    @Override
+    protected EditorCell createEmptyCell() {
+      myEditorContext.getCellFactory().pushCellContext();
+      myEditorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(myOwnerNode, MetaAdapterFactory.getContainmentLink(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, 0x4c9d8354dd762779L, "foreign_key")));
+      try {
+        EditorCell editorCell = super.createEmptyCell();
+        editorCell.setCellId("empty_foreign_key");
+        installCellInfo(null, editorCell);
+        return editorCell;
+      } finally {
+        myEditorContext.getCellFactory().popCellContext();
+      }
+    }
+    protected String getNoTargetText() {
+      return "<no foreign_key>";
     }
   }
 }

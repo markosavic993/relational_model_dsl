@@ -27,15 +27,20 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
           break;
         case 1:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new PrimaryKey_Editor());
+            return Collections.<ConceptEditor>singletonList(new ForeignKey_Editor());
           }
           break;
         case 2:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new Relation_Editor());
+            return Collections.<ConceptEditor>singletonList(new PrimaryKey_Editor());
           }
           break;
         case 3:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new Relation_Editor());
+          }
+          break;
+        case 4:
           if (true) {
             return Collections.<ConceptEditor>singletonList(new Type_Editor());
           }
@@ -56,5 +61,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL, "Relax.structure.Attribute"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L, "Relax.structure.PrimaryKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, "Relax.structure.Relation"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L, "Relax.structure.Type"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL, "Relax.structure.Attribute"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L, "Relax.structure.ForeignKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L, "Relax.structure.PrimaryKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, "Relax.structure.Relation"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L, "Relax.structure.Type"));
 }

@@ -163,31 +163,21 @@
           <property role="Vb096" value="orange" />
         </node>
       </node>
-      <node concept="3EZMnI" id="4MtwPjttvrq" role="3EZMnx">
-        <node concept="VPM3Z" id="4MtwPjttvrt" role="3F10Kt">
+      <node concept="3EZMnI" id="4MtwPjttwxn" role="3EZMnx">
+        <node concept="VPM3Z" id="4MtwPjttwxp" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
-        <node concept="3F1sOY" id="4MtwPjttvsv" role="3EZMnx">
+        <node concept="2iRkQZ" id="4MtwPjttwxs" role="2iSdaV" />
+        <node concept="3F1sOY" id="4MtwPjttx$r" role="3EZMnx">
           <ref role="1NtTu8" to="dtct:4MtwPjttrWq" resolve="primary_key" />
         </node>
-        <node concept="3F0ifn" id="4MtwPjttvrv" role="3EZMnx">
-          <property role="3F0ifm" value="attributes" />
-          <node concept="VechU" id="4MtwPjttvrw" role="3F10Kt">
-            <property role="Vb096" value="DARK_BLUE" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="4MtwPjttvrO" role="3EZMnx" />
-        <node concept="2iRkQZ" id="4MtwPjttvrx" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="4MtwPjtsZA_" role="3EZMnx">
-        <node concept="VPM3Z" id="4MtwPjtsZAB" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F2HdR" id="4MtwPjtsZAU" role="3EZMnx">
+        <node concept="3F2HdR" id="4MtwPjttx$y" role="3EZMnx">
           <ref role="1NtTu8" to="dtct:4MtwPjtsZwF" resolve="attributes" />
-          <node concept="2iRkQZ" id="4MtwPjtsZAW" role="2czzBx" />
+          <node concept="2iRkQZ" id="4MtwPjttx$$" role="2czzBx" />
         </node>
-        <node concept="2iRkQZ" id="4MtwPjtsZAE" role="2iSdaV" />
+        <node concept="3F1sOY" id="4MtwPjttzNG" role="3EZMnx">
+          <ref role="1NtTu8" to="dtct:4MtwPjttytT" resolve="foreign_key" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4MtwPjtsZ__" role="2iSdaV" />
     </node>
@@ -218,6 +208,34 @@
         <node concept="2iRkQZ" id="4MtwPjttrSK" role="2iSdaV" />
       </node>
       <node concept="l2Vlx" id="4MtwPjttrSp" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4MtwPjttytc">
+    <ref role="1XX52x" to="dtct:4MtwPjttysR" resolve="ForeignKey" />
+    <node concept="3EZMnI" id="4MtwPjttytk" role="2wV5jI">
+      <node concept="3F0ifn" id="4MtwPjttytl" role="3EZMnx">
+        <property role="3F0ifm" value="add" />
+        <node concept="VechU" id="4MtwPjttytm" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4MtwPjttytn" role="3EZMnx">
+        <property role="3F0ifm" value="foreign_key" />
+        <node concept="VechU" id="4MtwPjttyto" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="4MtwPjttytp" role="3EZMnx">
+        <node concept="VPM3Z" id="4MtwPjttytq" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F2HdR" id="4MtwPjttytr" role="3EZMnx">
+          <ref role="1NtTu8" to="dtct:4MtwPjttysV" resolve="attributes" />
+          <node concept="2iRkQZ" id="4MtwPjttyts" role="2czzBx" />
+        </node>
+        <node concept="2iRkQZ" id="4MtwPjttytt" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="4MtwPjttytu" role="2iSdaV" />
     </node>
   </node>
 </model>
