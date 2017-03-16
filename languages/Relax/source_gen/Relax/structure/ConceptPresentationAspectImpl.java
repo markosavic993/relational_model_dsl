@@ -11,8 +11,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private final ConceptPresentation props_Attribute = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_ForeignKey = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_NumberType = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_PredefineType = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_PrimaryKey = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_Relation = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_SemanticType = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_TextType = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_Type = new ConceptPresentationBuilder().create();
 
   @Override
@@ -25,10 +29,18 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case 1:
         return props_ForeignKey;
       case 2:
-        return props_PrimaryKey;
+        return props_NumberType;
       case 3:
-        return props_Relation;
+        return props_PredefineType;
       case 4:
+        return props_PrimaryKey;
+      case 5:
+        return props_Relation;
+      case 6:
+        return props_SemanticType;
+      case 7:
+        return props_TextType;
+      case 8:
         return props_Type;
     }
     throw new IllegalStateException("Unknown concept " + c);

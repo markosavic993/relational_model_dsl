@@ -9,7 +9,7 @@ package Relax.behavior;
  * This class is not involved in the actual method invocation
  */
 @Deprecated
-public class Type_BehaviorDescriptor {
+public abstract class Type_BehaviorDescriptor {
   public String getConceptFqName() {
     return null;
   }

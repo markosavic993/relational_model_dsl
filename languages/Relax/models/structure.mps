@@ -13,6 +13,8 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
@@ -92,6 +94,8 @@
     <property role="TrG5h" value="Type" />
     <property role="34LRSv" value="type" />
     <property role="R4oN_" value="Concept of type" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4MtwPjtsZwy" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -124,6 +128,45 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4MtwPjtsZwt" resolve="Attribute" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4MtwPjtt_2s">
+    <property role="EcuMT" value="5520713118742106268" />
+    <property role="TrG5h" value="PredefineType" />
+    <property role="34LRSv" value="predefine_type" />
+    <property role="R4oN_" value="Concept of predefine type" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="Type" />
+    <node concept="PrWs8" id="4MtwPjtt_2t" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4MtwPjtt_2D">
+    <property role="EcuMT" value="5520713118742106281" />
+    <property role="TrG5h" value="SemanticType" />
+    <property role="34LRSv" value="semantic_type" />
+    <property role="R4oN_" value="Concept of semantic type" />
+    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="Type" />
+    <node concept="PrWs8" id="4MtwPjtt_2E" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="4MtwPjtt_2G" role="1TKVEi">
+      <property role="IQ2ns" value="5520713118742106284" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attributes" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4MtwPjtsZwt" resolve="Attribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4MtwPjttDuG">
+    <property role="EcuMT" value="5520713118742124460" />
+    <property role="TrG5h" value="NumberType" />
+    <ref role="1TJDcQ" node="4MtwPjtt_2s" resolve="PredefineType" />
+  </node>
+  <node concept="1TIwiD" id="4MtwPjttDwK">
+    <property role="EcuMT" value="5520713118742124592" />
+    <property role="TrG5h" value="TextType" />
+    <ref role="1TJDcQ" node="4MtwPjtt_2s" resolve="PredefineType" />
   </node>
 </model>
 

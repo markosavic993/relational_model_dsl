@@ -7,8 +7,26 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="13,0,41,0" name="Relax.behavior.BehaviorAspectDescriptor" />
     </file>
+    <file name="ForeignKey_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.ForeignKey_BehaviorDescriptor" />
+    </file>
+    <file name="NumberType_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.NumberType_BehaviorDescriptor" />
+    </file>
+    <file name="PredefineType_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.PredefineType_BehaviorDescriptor" />
+    </file>
+    <file name="PrimaryKey_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.PrimaryKey_BehaviorDescriptor" />
+    </file>
     <file name="Relation_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.Relation_BehaviorDescriptor" />
+    </file>
+    <file name="SemanticType_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.SemanticType_BehaviorDescriptor" />
+    </file>
+    <file name="TextType_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.TextType_BehaviorDescriptor" />
     </file>
     <file name="Type_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.Type_BehaviorDescriptor" />

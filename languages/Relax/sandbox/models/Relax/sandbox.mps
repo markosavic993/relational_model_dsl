@@ -10,8 +10,13 @@
       <concept id="5520713118742068688" name="Relax.structure.PrimaryKey" flags="ng" index="2hU3U4">
         <child id="5520713118742068689" name="attributes" index="2hU3U5" />
       </concept>
+      <concept id="5520713118742124460" name="Relax.structure.NumberType" flags="ng" index="2hULjS" />
+      <concept id="5520713118742124592" name="Relax.structure.TextType" flags="ng" index="2hULH$" />
       <concept id="5520713118742095671" name="Relax.structure.ForeignKey" flags="ng" index="2hUUhz">
         <child id="5520713118742095675" name="attributes" index="2hUUhJ" />
+      </concept>
+      <concept id="5520713118742106281" name="Relax.structure.SemanticType" flags="ng" index="2hUXfX">
+        <child id="5520713118742106284" name="attributes" index="2hUXfS" />
       </concept>
       <concept id="5520713118741952541" name="Relax.structure.Attribute" flags="ng" index="2hVBH9">
         <child id="5520713118741952552" name="type" index="2hVBHW" />
@@ -21,7 +26,6 @@
         <child id="5520713118742095737" name="foreign_key" index="2hUUgH" />
         <child id="5520713118741952555" name="attributes" index="2hVBHZ" />
       </concept>
-      <concept id="5520713118741952545" name="Relax.structure.Type" flags="ng" index="2hVBHP" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -29,58 +33,40 @@
       </concept>
     </language>
   </registry>
-  <node concept="2hVBHt" id="4MtwPjttk0T">
-    <property role="TrG5h" value="Knjiga" />
-    <node concept="2hU3U4" id="4MtwPjttwvt" role="2hU3Le">
-      <node concept="2hVBH9" id="4MtwPjttzNf" role="2hU3U5">
-        <property role="TrG5h" value="asfsa" />
-        <node concept="2hVBHP" id="4MtwPjttzNg" role="2hVBHW">
-          <property role="TrG5h" value="fasfassfa" />
-        </node>
+  <node concept="2hVBHt" id="4MtwPjttBO5">
+    <property role="TrG5h" value="Film" />
+    <node concept="2hU3U4" id="4MtwPjttBO6" role="2hU3Le">
+      <node concept="2hVBH9" id="4MtwPjttBO9" role="2hU3U5">
+        <property role="TrG5h" value="id" />
+        <node concept="2hULjS" id="4MtwPjttFj7" role="2hVBHW" />
       </node>
-      <node concept="2hVBH9" id="4MtwPjtt$T2" role="2hU3U5">
-        <property role="TrG5h" value="asfasas" />
-        <node concept="2hVBHP" id="4MtwPjtt$T3" role="2hVBHW">
-          <property role="TrG5h" value="asfasfas" />
+    </node>
+    <node concept="2hVBH9" id="4MtwPjttBOn" role="2hVBHZ">
+      <property role="TrG5h" value="naziv" />
+      <node concept="2hULH$" id="4MtwPjttH31" role="2hVBHW" />
+    </node>
+    <node concept="2hVBH9" id="4MtwPjttBPb" role="2hVBHZ">
+      <property role="TrG5h" value="zanr" />
+      <node concept="2hUXfX" id="4MtwPjttBPh" role="2hVBHW">
+        <property role="TrG5h" value="Zanr" />
+        <node concept="2hVBH9" id="4MtwPjttBPi" role="2hUXfS">
+          <property role="TrG5h" value="punNazivZanra" />
+          <node concept="2hULH$" id="4MtwPjttH33" role="2hVBHW" />
+        </node>
+        <node concept="2hVBH9" id="4MtwPjttDaS" role="2hUXfS">
+          <property role="TrG5h" value="skraceniNazv" />
+          <node concept="2hULH$" id="4MtwPjttH35" role="2hVBHW" />
         </node>
       </node>
     </node>
-    <node concept="2hVBH9" id="4MtwPjtt$Sc" role="2hVBHZ">
-      <property role="TrG5h" value="asfas" />
-      <node concept="2hVBHP" id="4MtwPjtt$Sd" role="2hVBHW">
-        <property role="TrG5h" value="fasfasfsasaf" />
-      </node>
+    <node concept="2hVBH9" id="4MtwPjttBPJ" role="2hVBHZ">
+      <property role="TrG5h" value="godina" />
+      <node concept="2hULjS" id="4MtwPjttH37" role="2hVBHW" />
     </node>
-    <node concept="2hVBH9" id="4MtwPjtt$Sg" role="2hVBHZ">
-      <property role="TrG5h" value="aaa" />
-      <node concept="2hVBHP" id="4MtwPjtt$Sh" role="2hVBHW">
-        <property role="TrG5h" value="asdasf" />
-      </node>
-    </node>
-    <node concept="2hVBH9" id="4MtwPjtt$Sm" role="2hVBHZ">
-      <property role="TrG5h" value="asdsa" />
-      <node concept="2hVBHP" id="4MtwPjtt$Sn" role="2hVBHW">
-        <property role="TrG5h" value="asfas" />
-      </node>
-    </node>
-    <node concept="2hUUhz" id="4MtwPjtt$SI" role="2hUUgH">
-      <node concept="2hVBH9" id="4MtwPjtt$SK" role="2hUUhJ">
-        <property role="TrG5h" value="asffas`" />
-        <node concept="2hVBHP" id="4MtwPjtt$SL" role="2hVBHW">
-          <property role="TrG5h" value="asfsa" />
-        </node>
-      </node>
-      <node concept="2hVBH9" id="4MtwPjtt$SO" role="2hUUhJ">
-        <property role="TrG5h" value="assaf" />
-        <node concept="2hVBHP" id="4MtwPjtt$SP" role="2hVBHW">
-          <property role="TrG5h" value="saf" />
-        </node>
-      </node>
-      <node concept="2hVBH9" id="4MtwPjtt$SU" role="2hUUhJ">
-        <property role="TrG5h" value="sfas" />
-        <node concept="2hVBHP" id="4MtwPjtt$SV" role="2hVBHW">
-          <property role="TrG5h" value="fsafas" />
-        </node>
+    <node concept="2hUUhz" id="4MtwPjttBQf" role="2hUUgH">
+      <node concept="2hVBH9" id="4MtwPjttBQh" role="2hUUhJ">
+        <property role="TrG5h" value="reziserID" />
+        <node concept="2hULjS" id="4MtwPjttH3b" role="2hVBHW" />
       </node>
     </node>
   </node>
