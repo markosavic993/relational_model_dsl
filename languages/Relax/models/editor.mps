@@ -35,6 +35,7 @@
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <child id="1221064706952" name="query" index="1d8cEk" />
       </concept>
+      <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1221057094638" name="jetbrains.mps.lang.editor.structure.QueryFunction_Integer" flags="in" index="1cFabM" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
@@ -380,6 +381,95 @@
         </node>
       </node>
       <node concept="l2Vlx" id="2bHOyeD1eT1" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2bHOyeD1uBu">
+    <ref role="1XX52x" to="dtct:2bHOyeD1uBi" resolve="SemanticTypeRef" />
+    <node concept="3EZMnI" id="2bHOyeD1uBw" role="2wV5jI">
+      <node concept="3F0ifn" id="2bHOyeD1yV2" role="3EZMnx">
+        <property role="3F0ifm" value="set" />
+        <node concept="VechU" id="2bHOyeD1yWQ" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2bHOyeD1yX6" role="3EZMnx">
+        <property role="3F0ifm" value="referenced_semantic_type" />
+        <node concept="VechU" id="2bHOyeD1yYY" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="2bHOyeD1uBE" role="3EZMnx">
+        <ref role="1NtTu8" to="dtct:2bHOyeD1uBj" resolve="semantic_type" />
+        <node concept="1sVBvm" id="2bHOyeD1uBG" role="1sWHZn">
+          <node concept="3F0A7n" id="2bHOyeD1uBQ" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2bHOyeD1uBz" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2bHOyeD1HOL">
+    <ref role="1XX52x" to="dtct:2bHOyeD1HO_" resolve="RelationalModel" />
+    <node concept="3EZMnI" id="2bHOyeD1N$9" role="2wV5jI">
+      <node concept="2iRfu4" id="2bHOyeD1N$a" role="2iSdaV" />
+      <node concept="3F0ifn" id="2bHOyeD1N$f" role="3EZMnx">
+        <property role="3F0ifm" value="define" />
+        <node concept="VechU" id="2bHOyeD1N_W" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2bHOyeD1NAm" role="3EZMnx">
+        <property role="3F0ifm" value="relational_model" />
+        <node concept="VechU" id="2bHOyeD1NC8" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="2bHOyeD1NCo" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="VechU" id="2bHOyeD1NEe" role="3F10Kt">
+          <property role="Vb096" value="orange" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2bHOyeD1QEj" role="3EZMnx">
+        <node concept="35HoNQ" id="2bHOyeD1QEO" role="3EZMnx" />
+        <node concept="VPM3Z" id="2bHOyeD1QEl" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F2HdR" id="2bHOyeD1QEV" role="3EZMnx">
+          <ref role="1NtTu8" to="dtct:2bHOyeD1HOA" resolve="relations" />
+          <node concept="2iRkQZ" id="2bHOyeD1QEX" role="2czzBx" />
+        </node>
+        <node concept="2iRkQZ" id="2bHOyeD1QEo" role="2iSdaV" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2bHOyeD1HU8">
+    <ref role="1XX52x" to="dtct:2bHOyeD1HTW" resolve="RelationRef" />
+    <node concept="3EZMnI" id="2bHOyeD1HUf" role="2wV5jI">
+      <node concept="3F0ifn" id="2bHOyeD1HUp" role="3EZMnx">
+        <property role="3F0ifm" value="add" />
+        <node concept="VechU" id="2bHOyeD1HW7" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2bHOyeD1HWk" role="3EZMnx">
+        <property role="3F0ifm" value="referenced_relation" />
+        <node concept="VechU" id="2bHOyeD1HY6" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="2bHOyeD1HYq" role="3EZMnx">
+        <ref role="1NtTu8" to="dtct:2bHOyeD1HTX" resolve="relation" />
+        <node concept="1sVBvm" id="2bHOyeD1HYs" role="1sWHZn">
+          <node concept="3F0A7n" id="2bHOyeD1HYI" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2bHOyeD1HUi" role="2iSdaV" />
     </node>
   </node>
 </model>

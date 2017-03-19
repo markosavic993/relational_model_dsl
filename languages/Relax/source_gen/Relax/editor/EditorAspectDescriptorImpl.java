@@ -57,10 +57,25 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
           break;
         case 7:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new SemanticType_Editor());
+            return Collections.<ConceptEditor>singletonList(new RelationRef_Editor());
           }
           break;
         case 8:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new RelationalModel_Editor());
+          }
+          break;
+        case 9:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new SemanticType_Editor());
+          }
+          break;
+        case 10:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new SemanticTypeRef_Editor());
+          }
+          break;
+        case 11:
           if (true) {
             return Collections.<ConceptEditor>singletonList(new TextType_Editor());
           }
@@ -81,5 +96,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL, "Relax.structure.Attribute"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a904ee25L, "Relax.structure.DateType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L, "Relax.structure.ForeignKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7697acL, "Relax.structure.NumberType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL, "Relax.structure.PredefineType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L, "Relax.structure.PrimaryKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, "Relax.structure.Relation"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L, "Relax.structure.SemanticType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd769830L, "Relax.structure.TextType"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL, "Relax.structure.Attribute"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a904ee25L, "Relax.structure.DateType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L, "Relax.structure.ForeignKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7697acL, "Relax.structure.NumberType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL, "Relax.structure.PredefineType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L, "Relax.structure.PrimaryKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, "Relax.structure.Relation"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de7cL, "Relax.structure.RelationRef"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906dd25L, "Relax.structure.RelationalModel"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L, "Relax.structure.SemanticType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a905e9d2L, "Relax.structure.SemanticTypeRef"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd769830L, "Relax.structure.TextType"));
 }

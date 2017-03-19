@@ -9,6 +9,8 @@ import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private final ConceptPresentation props_AbstractRelation = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_AbstractType = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_Attribute = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_DateType = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_ForeignKey = new ConceptPresentationBuilder().create();
@@ -16,9 +18,11 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_PredefineType = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_PrimaryKey = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_Relation = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_RelationRef = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_RelationalModel = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_SemanticType = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_SemanticTypeRef = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_TextType = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_Type = new ConceptPresentationBuilder().create();
 
   @Override
   @Nullable
@@ -26,25 +30,33 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
       case 0:
-        return props_Attribute;
+        return props_AbstractRelation;
       case 1:
-        return props_DateType;
+        return props_AbstractType;
       case 2:
-        return props_ForeignKey;
+        return props_Attribute;
       case 3:
-        return props_NumberType;
+        return props_DateType;
       case 4:
-        return props_PredefineType;
+        return props_ForeignKey;
       case 5:
-        return props_PrimaryKey;
+        return props_NumberType;
       case 6:
-        return props_Relation;
+        return props_PredefineType;
       case 7:
-        return props_SemanticType;
+        return props_PrimaryKey;
       case 8:
-        return props_TextType;
+        return props_Relation;
       case 9:
-        return props_Type;
+        return props_RelationRef;
+      case 10:
+        return props_RelationalModel;
+      case 11:
+        return props_SemanticType;
+      case 12:
+        return props_SemanticTypeRef;
+      case 13:
+        return props_TextType;
     }
     throw new IllegalStateException("Unknown concept " + c);
   }

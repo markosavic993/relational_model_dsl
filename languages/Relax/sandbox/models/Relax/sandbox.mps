@@ -7,8 +7,17 @@
   <imports />
   <registry>
     <language id="29b7973d-d23d-4299-80d1-b1e9c7b757eb" name="Relax">
+      <concept id="2516898817371400658" name="Relax.structure.SemanticTypeRef" flags="ng" index="2bU3JL">
+        <reference id="2516898817371400659" name="semantic_type" index="2bU3JK" />
+      </concept>
       <concept id="2516898817371336229" name="Relax.structure.DateType" flags="ng" index="2bUjK6">
         <property id="2516898817371336238" name="date_format" index="2bUjKd" />
+      </concept>
+      <concept id="2516898817371463292" name="Relax.structure.RelationRef" flags="ng" index="2bUKLv">
+        <reference id="2516898817371463293" name="relation" index="2bUKLu" />
+      </concept>
+      <concept id="2516898817371462949" name="Relax.structure.RelationalModel" flags="ng" index="2bUKW6">
+        <child id="2516898817371462950" name="relations" index="2bUKW5" />
       </concept>
       <concept id="5520713118742068688" name="Relax.structure.PrimaryKey" flags="ng" index="2hU3U4">
         <child id="5520713118742068689" name="attributes" index="2hU3U5" />
@@ -97,6 +106,34 @@
       <property role="TrG5h" value="datumRodjenja" />
       <node concept="2bUjK6" id="2bHOyeD1kZV" role="2hVBHW">
         <property role="2bUjKd" value="&quot;dd.mm.yyyy&quot;" />
+      </node>
+    </node>
+  </node>
+  <node concept="2bUKW6" id="2bHOyeD1NxW">
+    <property role="TrG5h" value="Model1" />
+    <node concept="2bUKLv" id="2bHOyeD1NxY" role="2bUKW5">
+      <ref role="2bUKLu" node="2bHOyeD1kZ7" resolve="Reziser" />
+    </node>
+    <node concept="2bUKLv" id="2bHOyeD1Ny7" role="2bUKW5">
+      <ref role="2bUKLu" node="2bHOyeD1kY7" resolve="Film" />
+    </node>
+    <node concept="2hVBHt" id="2bHOyeD1Nyv" role="2bUKW5">
+      <property role="TrG5h" value="Soundtrack" />
+      <node concept="2hU3U4" id="2bHOyeD1Nyx" role="2hU3Le">
+        <node concept="2hVBH9" id="2bHOyeD1Nyz" role="2hU3U5">
+          <property role="TrG5h" value="trackiId" />
+          <node concept="2hULjS" id="2bHOyeD1NyN" role="2hVBHW" />
+        </node>
+      </node>
+      <node concept="2hVBH9" id="2bHOyeD1NyR" role="2hVBHZ">
+        <property role="TrG5h" value="name" />
+        <node concept="2hULH$" id="2bHOyeD1NyX" role="2hVBHW" />
+      </node>
+      <node concept="2hVBH9" id="2bHOyeD1Nz1" role="2hVBHZ">
+        <property role="TrG5h" value="zanr" />
+        <node concept="2bU3JL" id="2bHOyeD1Nzb" role="2hVBHW">
+          <ref role="2bU3JK" node="2bHOyeD1kYz" resolve="zanrTip" />
+        </node>
       </node>
     </node>
   </node>

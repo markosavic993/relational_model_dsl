@@ -57,9 +57,9 @@
     <property role="EcuMT" value="5520713118741952521" />
     <property role="TrG5h" value="Relation" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="relation" />
+    <property role="34LRSv" value="Relation" />
     <property role="R4oN_" value="Concept of relation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2bHOyeD1HTS" resolve="AbstractRelation" />
     <node concept="1TJgyj" id="4MtwPjttrWq" role="1TKVEi">
       <property role="IQ2ns" value="5520713118742069018" />
       <property role="20lmBu" value="aggregation" />
@@ -99,12 +99,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="4MtwPjtsZwx" resolve="Type" />
+      <ref role="20lvS9" node="4MtwPjtsZwx" resolve="AbstractType" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MtwPjtsZwx">
     <property role="EcuMT" value="5520713118741952545" />
-    <property role="TrG5h" value="Type" />
+    <property role="TrG5h" value="AbstractType" />
     <property role="34LRSv" value="type" />
     <property role="R4oN_" value="Concept of type" />
     <property role="R5$K7" value="true" />
@@ -159,7 +159,7 @@
     <property role="R4oN_" value="Concept of predefine type" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="Type" />
+    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="AbstractType" />
     <node concept="PrWs8" id="4MtwPjtt_2t" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -169,7 +169,7 @@
     <property role="TrG5h" value="SemanticType" />
     <property role="34LRSv" value="semantic_type" />
     <property role="R4oN_" value="Concept of semantic type" />
-    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="Type" />
+    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="AbstractType" />
     <node concept="PrWs8" id="4MtwPjtt_2E" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -211,6 +211,53 @@
     <node concept="M4N5e" id="2bHOyeD1eSF" role="M5hS2">
       <property role="1uS6qv" value="&quot;mm/dd/yyyy&quot;" />
       <property role="1uS6qo" value="MONTH/DAY/YEAR" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2bHOyeD1uBi">
+    <property role="EcuMT" value="2516898817371400658" />
+    <property role="TrG5h" value="SemanticTypeRef" />
+    <ref role="1TJDcQ" node="4MtwPjtsZwx" resolve="AbstractType" />
+    <node concept="1TJgyj" id="2bHOyeD1uBj" role="1TKVEi">
+      <property role="IQ2ns" value="2516898817371400659" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="semantic_type" />
+      <ref role="20lvS9" node="4MtwPjtt_2D" resolve="SemanticType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2bHOyeD1HO_">
+    <property role="EcuMT" value="2516898817371462949" />
+    <property role="TrG5h" value="RelationalModel" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="RelationModel" />
+    <property role="R4oN_" value="Concept of relational model" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2bHOyeD1HOA" role="1TKVEi">
+      <property role="IQ2ns" value="2516898817371462950" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="relations" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2bHOyeD1HTS" resolve="AbstractRelation" />
+    </node>
+    <node concept="PrWs8" id="2bHOyeD1L18" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2bHOyeD1HTS">
+    <property role="EcuMT" value="2516898817371463288" />
+    <property role="TrG5h" value="AbstractRelation" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2bHOyeD1HTW">
+    <property role="EcuMT" value="2516898817371463292" />
+    <property role="TrG5h" value="RelationRef" />
+    <ref role="1TJDcQ" node="2bHOyeD1HTS" resolve="AbstractRelation" />
+    <node concept="1TJgyj" id="2bHOyeD1HTX" role="1TKVEi">
+      <property role="IQ2ns" value="2516898817371463293" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="relation" />
+      <ref role="20lvS9" node="4MtwPjtsZw9" resolve="Relation" />
     </node>
   </node>
 </model>

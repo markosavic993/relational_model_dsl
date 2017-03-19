@@ -18,7 +18,9 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(10);
+  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(14);
+  /*package*/ final ConceptDescriptor myConceptAbstractRelation = createDescriptorForAbstractRelation();
+  /*package*/ final ConceptDescriptor myConceptAbstractType = createDescriptorForAbstractType();
   /*package*/ final ConceptDescriptor myConceptAttribute = createDescriptorForAttribute();
   /*package*/ final ConceptDescriptor myConceptDateType = createDescriptorForDateType();
   /*package*/ final ConceptDescriptor myConceptForeignKey = createDescriptorForForeignKey();
@@ -26,26 +28,32 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPredefineType = createDescriptorForPredefineType();
   /*package*/ final ConceptDescriptor myConceptPrimaryKey = createDescriptorForPrimaryKey();
   /*package*/ final ConceptDescriptor myConceptRelation = createDescriptorForRelation();
+  /*package*/ final ConceptDescriptor myConceptRelationRef = createDescriptorForRelationRef();
+  /*package*/ final ConceptDescriptor myConceptRelationalModel = createDescriptorForRelationalModel();
   /*package*/ final ConceptDescriptor myConceptSemanticType = createDescriptorForSemanticType();
+  /*package*/ final ConceptDescriptor myConceptSemanticTypeRef = createDescriptorForSemanticTypeRef();
   /*package*/ final ConceptDescriptor myConceptTextType = createDescriptorForTextType();
-  /*package*/ final ConceptDescriptor myConceptType = createDescriptorForType();
 
   public StructureAspectDescriptor() {
-    myIndexMap.put(myConceptAttribute.getId(), 0);
-    myIndexMap.put(myConceptDateType.getId(), 1);
-    myIndexMap.put(myConceptForeignKey.getId(), 2);
-    myIndexMap.put(myConceptNumberType.getId(), 3);
-    myIndexMap.put(myConceptPredefineType.getId(), 4);
-    myIndexMap.put(myConceptPrimaryKey.getId(), 5);
-    myIndexMap.put(myConceptRelation.getId(), 6);
-    myIndexMap.put(myConceptSemanticType.getId(), 7);
-    myIndexMap.put(myConceptTextType.getId(), 8);
-    myIndexMap.put(myConceptType.getId(), 9);
+    myIndexMap.put(myConceptAbstractRelation.getId(), 0);
+    myIndexMap.put(myConceptAbstractType.getId(), 1);
+    myIndexMap.put(myConceptAttribute.getId(), 2);
+    myIndexMap.put(myConceptDateType.getId(), 3);
+    myIndexMap.put(myConceptForeignKey.getId(), 4);
+    myIndexMap.put(myConceptNumberType.getId(), 5);
+    myIndexMap.put(myConceptPredefineType.getId(), 6);
+    myIndexMap.put(myConceptPrimaryKey.getId(), 7);
+    myIndexMap.put(myConceptRelation.getId(), 8);
+    myIndexMap.put(myConceptRelationRef.getId(), 9);
+    myIndexMap.put(myConceptRelationalModel.getId(), 10);
+    myIndexMap.put(myConceptSemanticType.getId(), 11);
+    myIndexMap.put(myConceptSemanticTypeRef.getId(), 12);
+    myIndexMap.put(myConceptTextType.getId(), 13);
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAttribute, myConceptDateType, myConceptForeignKey, myConceptNumberType, myConceptPredefineType, myConceptPrimaryKey, myConceptRelation, myConceptSemanticType, myConceptTextType, myConceptType);
+    return Arrays.asList(myConceptAbstractRelation, myConceptAbstractType, myConceptAttribute, myConceptDateType, myConceptForeignKey, myConceptNumberType, myConceptPredefineType, myConceptPrimaryKey, myConceptRelation, myConceptRelationRef, myConceptRelationalModel, myConceptSemanticType, myConceptSemanticTypeRef, myConceptTextType);
   }
 
   @Override
@@ -57,25 +65,33 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     }
     switch (((int) index)) {
       case 0:
-        return myConceptAttribute;
+        return myConceptAbstractRelation;
       case 1:
-        return myConceptDateType;
+        return myConceptAbstractType;
       case 2:
-        return myConceptForeignKey;
+        return myConceptAttribute;
       case 3:
-        return myConceptNumberType;
+        return myConceptDateType;
       case 4:
-        return myConceptPredefineType;
+        return myConceptForeignKey;
       case 5:
-        return myConceptPrimaryKey;
+        return myConceptNumberType;
       case 6:
-        return myConceptRelation;
+        return myConceptPredefineType;
       case 7:
-        return myConceptSemanticType;
+        return myConceptPrimaryKey;
       case 8:
-        return myConceptTextType;
+        return myConceptRelation;
       case 9:
-        return myConceptType;
+        return myConceptRelationRef;
+      case 10:
+        return myConceptRelationalModel;
+      case 11:
+        return myConceptSemanticType;
+      case 12:
+        return myConceptSemanticTypeRef;
+      case 13:
+        return myConceptTextType;
       default:
         throw new IllegalStateException();
     }
@@ -91,6 +107,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return (res == null ? -1 : res);
   }
 
+  private static ConceptDescriptor createDescriptorForAbstractRelation() {
+    return new ConceptDescriptorBuilder("Relax.structure.AbstractRelation", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de78L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).abstract_().sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371463288")).create();
+  }
+  private static ConceptDescriptor createDescriptorForAbstractType() {
+    return new ConceptDescriptorBuilder("Relax.structure.AbstractType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).abstract_().alias("type", "Concept of type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952545")).create();
+  }
   private static ConceptDescriptor createDescriptorForAttribute() {
     return new ConceptDescriptorBuilder("Relax.structure.Attribute", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x4c9d8354dd73f828L, "type", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L), false, false, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952552"))).children(new String[]{"type"}, new boolean[]{false}).alias("attribute", "Concept of attribute").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952541")).create();
   }
@@ -104,21 +126,27 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return new ConceptDescriptorBuilder("Relax.structure.NumberType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7697acL)).super_("Relax.structure.PredefineType").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL)).parents("Relax.structure.PredefineType").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL)).sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742124460")).create();
   }
   private static ConceptDescriptor createDescriptorForPredefineType() {
-    return new ConceptDescriptorBuilder("Relax.structure.PredefineType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL)).super_("Relax.structure.Type").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).parents("Relax.structure.Type", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).abstract_().alias("predefine_type", "Concept of predefine type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742106268")).create();
+    return new ConceptDescriptorBuilder("Relax.structure.PredefineType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL)).super_("Relax.structure.AbstractType").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).parents("Relax.structure.AbstractType", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).abstract_().alias("predefine_type", "Concept of predefine type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742106268")).create();
   }
   private static ConceptDescriptor createDescriptorForPrimaryKey() {
     return new ConceptDescriptorBuilder("Relax.structure.PrimaryKey", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).childDescriptors(new ConceptDescriptorBuilder.Link(0x4c9d8354dd75bdd1L, "attributes", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL), false, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742068689"))).children(new String[]{"attributes"}, new boolean[]{true}).alias("primary_key", "Concept for primary key").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742068688")).create();
   }
   private static ConceptDescriptor createDescriptorForRelation() {
-    return new ConceptDescriptorBuilder("Relax.structure.Relation", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x4c9d8354dd75bf1aL, "primary_key", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L), false, false, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742069018")), new ConceptDescriptorBuilder.Link(0x4c9d8354dd73f82bL, "attributes", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL), true, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952555")), new ConceptDescriptorBuilder.Link(0x4c9d8354dd762779L, "foreign_key", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L), true, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742095737"))).children(new String[]{"primary_key", "attributes", "foreign_key"}, new boolean[]{false, true, true}).rootable().alias("relation", "Concept of relation").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952521")).create();
+    return new ConceptDescriptorBuilder("Relax.structure.Relation", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L)).super_("Relax.structure.AbstractRelation").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de78L)).parents("Relax.structure.AbstractRelation", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de78L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x4c9d8354dd75bf1aL, "primary_key", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L), false, false, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742069018")), new ConceptDescriptorBuilder.Link(0x4c9d8354dd73f82bL, "attributes", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL), true, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952555")), new ConceptDescriptorBuilder.Link(0x4c9d8354dd762779L, "foreign_key", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L), true, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742095737"))).children(new String[]{"primary_key", "attributes", "foreign_key"}, new boolean[]{false, true, true}).rootable().alias("Relation", "Concept of relation").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952521")).create();
+  }
+  private static ConceptDescriptor createDescriptorForRelationRef() {
+    return new ConceptDescriptorBuilder("Relax.structure.RelationRef", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de7cL)).super_("Relax.structure.AbstractRelation").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de78L)).parents("Relax.structure.AbstractRelation").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de78L)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x22edd223a906de7dL, "relation", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L), true, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371463293"))).references("relation").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371463292")).create();
+  }
+  private static ConceptDescriptor createDescriptorForRelationalModel() {
+    return new ConceptDescriptorBuilder("Relax.structure.RelationalModel", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906dd25L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x22edd223a906dd26L, "relations", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a906de78L), false, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371462950"))).children(new String[]{"relations"}, new boolean[]{true}).rootable().alias("RelationModel", "Concept of relational model").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371462949")).create();
   }
   private static ConceptDescriptor createDescriptorForSemanticType() {
-    return new ConceptDescriptorBuilder("Relax.structure.SemanticType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L)).super_("Relax.structure.Type").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).parents("Relax.structure.Type", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x4c9d8354dd7650acL, "attributes", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL), false, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742106284"))).children(new String[]{"attributes"}, new boolean[]{true}).alias("semantic_type", "Concept of semantic type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742106281")).create();
+    return new ConceptDescriptorBuilder("Relax.structure.SemanticType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L)).super_("Relax.structure.AbstractType").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).parents("Relax.structure.AbstractType", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x4c9d8354dd7650acL, "attributes", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL), false, true, false, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742106284"))).children(new String[]{"attributes"}, new boolean[]{true}).alias("semantic_type", "Concept of semantic type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742106281")).create();
+  }
+  private static ConceptDescriptor createDescriptorForSemanticTypeRef() {
+    return new ConceptDescriptorBuilder("Relax.structure.SemanticTypeRef", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a905e9d2L)).super_("Relax.structure.AbstractType").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).parents("Relax.structure.AbstractType").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x22edd223a905e9d3L, "semantic_type", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L), true, new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371400659"))).references("semantic_type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "2516898817371400658")).create();
   }
   private static ConceptDescriptor createDescriptorForTextType() {
     return new ConceptDescriptorBuilder("Relax.structure.TextType", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd769830L)).super_("Relax.structure.PredefineType").version(1).super_(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL)).parents("Relax.structure.PredefineType").parentIds(MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL)).sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118742124592")).create();
-  }
-  private static ConceptDescriptor createDescriptorForType() {
-    return new ConceptDescriptorBuilder("Relax.structure.Type", MetaIdFactory.conceptId(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).abstract_().alias("type", "Concept of type").sourceNode(new SNodePointer("r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)", "5520713118741952545")).create();
   }
 }
