@@ -7,6 +7,9 @@
     <file name="BehaviorAspectDescriptor.java">
       <unit at="13,0,41,0" name="Relax.behavior.BehaviorAspectDescriptor" />
     </file>
+    <file name="DateType_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.DateType_BehaviorDescriptor" />
+    </file>
     <file name="ForeignKey_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.ForeignKey_BehaviorDescriptor" />
     </file>

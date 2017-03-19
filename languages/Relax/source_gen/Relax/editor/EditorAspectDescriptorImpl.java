@@ -27,42 +27,42 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
           break;
         case 1:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new ForeignKey_Editor());
+            return Collections.<ConceptEditor>singletonList(new DateType_Editor());
           }
           break;
         case 2:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new NumberType_Editor());
+            return Collections.<ConceptEditor>singletonList(new ForeignKey_Editor());
           }
           break;
         case 3:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new PredefineType_Editor());
+            return Collections.<ConceptEditor>singletonList(new NumberType_Editor());
           }
           break;
         case 4:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new PrimaryKey_Editor());
+            return Collections.<ConceptEditor>singletonList(new PredefineType_Editor());
           }
           break;
         case 5:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new Relation_Editor());
+            return Collections.<ConceptEditor>singletonList(new PrimaryKey_Editor());
           }
           break;
         case 6:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new SemanticType_Editor());
+            return Collections.<ConceptEditor>singletonList(new Relation_Editor());
           }
           break;
         case 7:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new TextType_Editor());
+            return Collections.<ConceptEditor>singletonList(new SemanticType_Editor());
           }
           break;
         case 8:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new Type_Editor());
+            return Collections.<ConceptEditor>singletonList(new TextType_Editor());
           }
           break;
         default:
@@ -81,5 +81,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL, "Relax.structure.Attribute"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L, "Relax.structure.ForeignKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7697acL, "Relax.structure.NumberType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL, "Relax.structure.PredefineType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L, "Relax.structure.PrimaryKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, "Relax.structure.Relation"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L, "Relax.structure.SemanticType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd769830L, "Relax.structure.TextType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f821L, "Relax.structure.Type"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f81dL, "Relax.structure.Attribute"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x22edd223a904ee25L, "Relax.structure.DateType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L, "Relax.structure.ForeignKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7697acL, "Relax.structure.NumberType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd76509cL, "Relax.structure.PredefineType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd75bdd0L, "Relax.structure.PrimaryKey"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd73f809L, "Relax.structure.Relation"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd7650a9L, "Relax.structure.SemanticType"), MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd769830L, "Relax.structure.TextType"));
 }
