@@ -137,5 +137,54 @@
       </node>
     </node>
   </node>
+  <node concept="2hVBHt" id="2td$7SzrMsa">
+    <property role="TrG5h" value="Glumac" />
+    <node concept="2hUUhz" id="2td$7SzrMtD" role="2hUUgH">
+      <property role="TrG5h" value="mestoRodjenja" />
+      <ref role="2bUs2x" node="2td$7SzrMt9" resolve="Mesto" />
+      <ref role="2bUdQH" node="2td$7SzrMtf" resolve="mestoId" />
+    </node>
+    <node concept="2hVBH9" id="2td$7SzrMsJ" role="2hVBHZ">
+      <property role="TrG5h" value="ime" />
+      <node concept="2hULH$" id="2td$7SzrMt1" role="2hVBHW" />
+    </node>
+    <node concept="2hVBH9" id="2td$7SzrMsN" role="2hVBHZ">
+      <property role="TrG5h" value="prezime" />
+      <node concept="2hULH$" id="2td$7SzrMt3" role="2hVBHW" />
+    </node>
+    <node concept="2hVBH9" id="2td$7SzrMuj" role="2hVBHZ">
+      <property role="TrG5h" value="datumRodjenja" />
+      <node concept="2bUjK6" id="2td$7SzrMuk" role="2hVBHW">
+        <property role="2bUjKd" value="&quot;dd.mm.yyyy&quot;" />
+      </node>
+    </node>
+    <node concept="2hU3U4" id="2td$7SzrMsb" role="2hU3Le">
+      <node concept="2hVBH9" id="2td$7SzrMsc" role="2hU3U5">
+        <property role="TrG5h" value="jmbg" />
+        <node concept="2hULH$" id="2td$7SzrMse" role="2hVBHW" />
+      </node>
+      <node concept="2hVBH9" id="2td$7SzrMsB" role="2hU3U5">
+        <property role="TrG5h" value="glumacId" />
+        <node concept="2hULjS" id="2td$7SzrMsH" role="2hVBHW" />
+      </node>
+    </node>
+  </node>
+  <node concept="2hVBHt" id="2td$7SzrMt9">
+    <property role="TrG5h" value="Mesto" />
+    <node concept="2hVBH9" id="2td$7SzrMtz" role="2hVBHZ">
+      <property role="TrG5h" value="naziv" />
+      <node concept="2hULH$" id="2td$7SzrMtB" role="2hVBHW" />
+    </node>
+    <node concept="2hU3U4" id="2td$7SzrMta" role="2hU3Le">
+      <node concept="2hVBH9" id="2td$7SzrMtb" role="2hU3U5">
+        <property role="TrG5h" value="ptt" />
+        <node concept="2hULH$" id="2td$7SzrMtd" role="2hVBHW" />
+      </node>
+      <node concept="2hVBH9" id="2td$7SzrMtf" role="2hU3U5">
+        <property role="TrG5h" value="mestoId" />
+        <node concept="2hULjS" id="2td$7SzrMtx" role="2hVBHW" />
+      </node>
+    </node>
+  </node>
 </model>
 
