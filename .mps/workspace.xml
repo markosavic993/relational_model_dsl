@@ -6,33 +6,52 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0c92926-0f56-4a56-9e72-fbf97d766ef1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/behavior/Type_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/constraints/Relation_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/Type_BehaviorDescriptor.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/constraints/ConstraintsAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/EditorAspectDescriptorImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/structure/StructureAspectDescriptor.class" />
+    <list default="true" id="b0c92926-0f56-4a56-9e72-fbf97d766ef1" name="Default" comment="ad">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/AbstractRelation_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/AbstractType_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/DateType_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/ForeignKey_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/NumberType_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/PredefineType_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/PrimaryKey_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/RelationRef_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/RelationalModel_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/SemanticTypeRef_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/SemanticType_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/TextType_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/DateType_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/NumberType_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/PredefineType_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/RelationRef_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/RelationalModel_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/SemanticTypeRef_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/SemanticType_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/TextType_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/DateFormatTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/DateFormatTypes_PropertySupport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/typesystem/checkUniqueAttributeName_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/Attribute_Editor$typeSingleRoleHandler_mc4j88_c2a.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/Attribute_Editor$typeSingleRoleHandler_mc4j88_c2a.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/PrimaryKey_Editor$attributesListHandler_4qinhz_a2a.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/PrimaryKey_Editor$attributesListHandler_4qinhz_a2a.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/Relation_Editor$primary_keySingleRoleHandler_4myft4_a3a.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/Relation_Editor$primary_keySingleRoleHandler_4myft4_a3a.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/Relation_Editor.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/Relation_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/typesystem/TypesystemDescriptor.class" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/typesystem/TypesystemDescriptor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/behavior/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/models/editor.mps" afterPath="$PROJECT_DIR$/languages/Relax/models/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/models/structure.mps" afterPath="$PROJECT_DIR$/languages/Relax/models/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/sandbox/models/Relax/sandbox.mps" afterPath="$PROJECT_DIR$/languages/Relax/sandbox/models/Relax/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/classes_gen/Relax/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/Relax/models/typesystem.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/sandbox/source_gen.caches/Relax/sandbox/generated" afterPath="$PROJECT_DIR$/languages/Relax/sandbox/source_gen.caches/Relax/sandbox/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/editor/dependencies" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/editor/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/editor/generated" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/editor/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/generated" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/structure/generated" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/typesystem/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/typesystem/generated" afterPath="$PROJECT_DIR$/languages/Relax/source_gen.caches/Relax/typesystem/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/Attribute_Editor.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/Attribute_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/PrimaryKey_Editor.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/PrimaryKey_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/Relation_Editor.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/Relation_Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/StructureAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/typesystem/TypesystemDescriptor.java" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/typesystem/TypesystemDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/Relax/source_gen/Relax/typesystem/trace.info" />
     </list>
     <ignored path="RelationalModel.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -49,7 +68,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="531b2f77-f8f2-4c8b-b761-38e414e2a53c/r:d18c6de8-7706-4083-9365-13d04a26dc61(TempModule531b2f77-f8f2-4c8b-b761-38e414e2a53c/TempModel_978199795883691)">
+            <model ref="79d416fe-7d7e-4ae3-b602-6fab1fe810aa/r:bb284c1c-d09e-4b5a-a050-98fe659e9682(TempModule79d416fe-7d7e-4ae3-b602-6fab1fe810aa/TempModel_20279890511966)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -79,9 +98,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2bHOyeD119X">
-                <node concept="3balQm" id="2bHOyeD119Y" role="aymYE" />
-                <node concept="2Clz$F" id="2bHOyeD119Z" role="aymYO">
+              <node concept="aymSD" id="58esIpNXJq1">
+                <node concept="3balQm" id="58esIpNXJq2" role="aymYE" />
+                <node concept="2Clz$F" id="58esIpNXJq3" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -117,10 +136,10 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="95" />
-                    <property name="caretXRelative" value="12" />
+                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="56" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
                       <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" />
                     </cellInfo>
                   </stackElement>
@@ -130,7 +149,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -139,6 +158,40 @@
                 <enabledHints />
               </inspectorMemento>
               <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelationRef" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Relax/Relax.structure/RelationRef">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
             </state>
           </provider>
         </entry>
@@ -152,9 +205,9 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretX" value="375" />
-                    <property name="caretXRelative" value="4" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                    <cellInfo cellId="Constant_ueqr71_a1b4a0" cellNumber="0" isInList="false">
                       <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
                     </cellInfo>
                   </stackElement>
@@ -164,7 +217,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -177,19 +230,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemanticTypeRef" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Relax/Relax.structure/SemanticTypeRef">
+      <file leaf-file-name="Reziser" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Relax.sandbox/Relax.sandbox/Reziser">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="519" />
-                    <property name="caretXRelative" value="20" />
+                    <property name="caretX" value="143" />
+                    <property name="caretXRelative" value="4" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371400694" />
+                      <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361223" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -198,7 +251,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -206,7 +259,73 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371400670" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attribute" pinned="false" current-in-tab="true">
+        <entry file="mps://node://Relax/Relax.structure/Attribute">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="39" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_tg6zfx_f1b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkUniqueAttributeName" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Relax/Relax.typesystem/checkUniqueAttributeName">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="583" />
+                    <property name="caretXRelative" value="132" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684639389" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -217,13 +336,12 @@
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="475" />
-                    <property name="caretXRelative" value="76" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretX" value="0" />
+                    <property name="caretXRelative" value="-31" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_role" cellNumber="0" isInList="false">
-                      <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371499195" />
+                    <cellInfo cellId="Collection_6h6dhy_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462950" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -232,7 +350,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -240,57 +358,24 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371462961" />
+              <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model1" pinned="false" current-in-tab="true">
-        <entry file="mps://node://Relax.sandbox/Relax.sandbox/Model1">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="487" />
-                    <property name="caretXRelative" value="36" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelationRef" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Relax/Relax.structure/RelationRef">
+      <file leaf-file-name="PredefineType" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Relax/Relax.structure/PredefineType">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="455" />
-                    <property name="caretXRelative" value="36" />
+                    <property name="caretX" value="255" />
+                    <property name="caretXRelative" value="108" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371463598" />
+                    <cellInfo cellId="name" cellNumber="0" isInList="false">
+                      <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742106268" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -299,7 +384,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -307,7 +392,7 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371463304" />
+              <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742106268" />
             </state>
           </provider>
         </entry>
@@ -320,10 +405,10 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="103" />
-                    <property name="caretXRelative" value="72" />
+                    <property name="caretX" value="247" />
+                    <property name="caretXRelative" value="100" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_l1c0" cellNumber="0" isInList="false">
+                    <cellInfo cellId="name" cellNumber="0" isInList="false">
                       <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952545" />
                     </cellInfo>
                   </stackElement>
@@ -333,7 +418,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -346,19 +431,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberType" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Relax/Relax.structure/NumberType">
+      <file leaf-file-name="PrimaryKey" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="175" />
+                    <property name="caretXRelative" value="92" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742124460" />
+                    <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                      <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -367,7 +452,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -375,74 +460,7 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742124460" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateType" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Relax/Relax.structure/DateType">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="95" />
-                    <property name="caretXRelative" value="28" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                      <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371336251" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371336248" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateFormatTypes" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Relax/Relax.structure/DateFormatTypes">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="415" />
-                    <property name="caretXRelative" value="116" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
-                      <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371336235" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
+              <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
             </state>
           </provider>
         </entry>
@@ -469,10 +487,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -551,160 +569,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/models/editor.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Relax" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/sandbox/models/Relax/sandbox.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/models/structure.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c3b8ea72-3cd8-466a-a74c-d224df7f3a6f(Relax.constraints) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/models/constraints.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8c58974a-eb8c-457b-a201-31f8c5ec3abe(Relax.behavior) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/models/behavior.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Relax" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/models/typesystem.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Relax" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox) in IdeaFile{file://C:/Users/msav/MPSProjects/RelationalModel/languages/Relax/sandbox/models/Relax/sandbox.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2516898817371486332" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
       <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
@@ -738,12 +602,106 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem) in IdeaFile{file://C:/Users/PredragiNenad/MpsProjects/relational_model_dsl/languages/Relax/models/typesystem.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Relax" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox) in IdeaFile{file://C:/Users/PredragiNenad/MpsProjects/relational_model_dsl/languages/Relax/sandbox/models/Relax/sandbox.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/languages/Relax/sandbox/Relax.sandbox.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Relax" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="29b7973d-d23d-4299-80d1-b1e9c7b757eb(Relax)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem) in IdeaFile{file://C:/Users/PredragiNenad/MpsProjects/relational_model_dsl/languages/Relax/models/typesystem.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1962934134684565147" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/simpleUml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
@@ -755,7 +713,7 @@
           <option name="myInProcess" value="true" />
           <option name="myReuseCaches" value="true" />
           <option name="myDebug" value="false" />
-          <option name="myCachesPath" value="C:\Users\msav\AppData\Local\Temp\mps_test_dir0" />
+          <option name="myCachesPath" value="C:\Users\PREDRA~1\AppData\Local\Temp\mps_test_dir0" />
           <option name="myTestCases">
             <list />
           </option>
@@ -780,55 +738,39 @@
       </myJavaRunParameters>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <MyState>
-        <option name="mySettings">
-          <RemoteConnectionSettings>
-            <option name="hostName" value="localhost" />
-            <option name="port" value="5005" />
-            <option name="sharedMemoryAddress" value="" />
-            <option name="suspend" value="false" />
-            <option name="useSockets" value="true" />
-          </RemoteConnectionSettings>
-        </option>
-      </MyState>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\msav\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\PredragiNenad\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.48333332" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.48333332" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5083333" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32824427" sideWeight="0.5083333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5208333" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5208333" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.47916666" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.47916666" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -836,7 +778,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -861,636 +805,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add basic foreign keys" />
     <MESSAGE value="refactor foreign key concept, add date type concept and fix styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor foreign key concept, add date type concept and fix styles" />
+    <MESSAGE value="added new relations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new relations" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://Relax/Relax.structure/TextType">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="95" />
-                <property name="caretXRelative" value="28" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371280035" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371440646" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742124601" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/ForeignKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="579" />
-                <property name="caretXRelative" value="84" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_role_1" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371440646" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers>
-              <errorMarker text="?primary_key_ref?" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers>
-              <errorMarker text="?primary_key_ref?" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="575" />
-                <property name="caretXRelative" value="100" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                  <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                    <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                  </parent>
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="?primary_key_ref?" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371425295" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/AbstractType">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="103" />
-                <property name="caretXRelative" value="72" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_l1c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952545" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952545" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="575" />
-                <property name="caretXRelative" value="100" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                  <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                    <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                  </parent>
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="?primary_key_ref?" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="511" />
-                <property name="caretXRelative" value="12" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_5uu2sg_h0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="id" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371425295" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/ForeignKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="579" />
-                <property name="caretXRelative" value="84" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_role_1" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371440646" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371440646" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="511" />
-                <property name="caretXRelative" value="12" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_5uu2sg_h0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="id" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                <parent cellId="Collection_5uu2sg_a0g0" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361278" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/ForeignKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="327" />
-                <property name="caretXRelative" value="84" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371425307" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371368921" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371418438" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/ForeignKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="327" />
-                <property name="caretXRelative" value="84" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742095692" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Relax/Relax.structure/ForeignKey">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1523,13 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKeyRef">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <node />
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://Relax/Relax.structure/PrimaryKeyRef" />
     <entry file="mps://node://Relax/Relax.structure/ForeignKey">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1656,38 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="92" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361223" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Relax.sandbox/Relax.sandbox/Reziser">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1755,38 +1035,6 @@
             <foldable />
             <restoreAlways />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/ForeignKey">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="119" />
-                <property name="caretXRelative" value="88" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742095671" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361159" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742095671" />
         </state>
       </provider>
     </entry>
@@ -1821,31 +1069,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]">
+    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Relax/Relax.structure/Attribute">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
-              </errorMarker>
-            </errorMarkers>
+            <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1853,35 +1099,31 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]">
+    <entry file="mps://node://Relax/Relax.structure/Attribute">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
-              </errorMarker>
-            </errorMarkers>
+            <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1889,25 +1131,58 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Reziser">
+    <entry file="mps://node://Relax/Relax.structure/Attribute">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/RelationModel" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[RelationalModel]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="143" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361223" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
@@ -1924,18 +1199,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/Attribute">
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[Relation]" />
+    <entry file="mps://node://Relax/Relax.structure/ForeignKey">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="119" />
+                <property name="caretXRelative" value="88" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
+                <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742095671" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1944,7 +1221,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1952,54 +1229,22 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742095671" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/Attribute">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Film">
+    <entry file="mps://node://Relax/Relax.structure/DateFormatTypes">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="143" />
-                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="415" />
+                <property name="caretXRelative" value="116" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361159" />
+                <cellInfo cellId="property_externalValue" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371336235" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2008,7 +1253,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371336248" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2019,214 +1264,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/Attribute">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/Attribute">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371462961" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://Relax/Relax.typesystem/&lt;no name&gt;[NonTypesystemRule]" />
     <entry file="mps://node://Relax/Relax.structure/SemanticTypeRef">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2247,7 +1285,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2259,70 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/RelationRef">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="455" />
-                <property name="caretXRelative" value="36" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371463598" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371463304" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Relax/Relax.structure/Relation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="95" />
-                <property name="caretXRelative" value="12" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Relax/Relax.structure/SemanticType">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2330,11 +1304,43 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="95" />
-                <property name="caretXRelative" value="28" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="100" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371361313" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742112418" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371336229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742112418" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/DateType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371336229" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2351,21 +1357,31 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/5520713118742112418" />
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371336229" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/RelationModel">
+    <entry file="mps://node://Relax/Relax.structure/NumberType">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742124460" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2373,6 +1389,290 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742124460" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Glumac">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="599" />
+                <property name="caretXRelative" value="12" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_5uu2sg_h0" cellNumber="0" isInList="false">
+                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2832078612120676201" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742106268" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Mesto">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="143" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2832078612120676169" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Model1">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="2" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="859" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_77ihs4_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486387" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax.sandbox/Relax.sandbox/Reziser">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="143" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371361223" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/AbstractType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="100" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952545" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952545" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/RelationRef">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/PrimaryKey">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="92" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742068688" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/PredefineType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="255" />
+                <property name="caretXRelative" value="108" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742106268" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118742106268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/RelationalModel">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-31" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_6h6dhy_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462950" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371462949" />
         </state>
       </provider>
     </entry>
@@ -2384,9 +1684,9 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretX" value="375" />
-                <property name="caretXRelative" value="4" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                <cellInfo cellId="Constant_ueqr71_a1b4a0" cellNumber="0" isInList="false">
                   <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/2516898817371463288" />
                 </cellInfo>
               </stackElement>
@@ -2396,7 +1696,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2408,18 +1708,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax/Relax.structure/RelationalModel">
+    <entry file="mps://node://Relax/Relax.structure/Relation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="475" />
-                <property name="caretXRelative" value="76" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
-                  <node node_reference="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371499195" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2428,7 +1728,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2436,22 +1736,24 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fc9a064b-b85d-4912-922b-5456de84d897(Relax.editor)/2516898817371462961" />
+          <node node_ref="r:794d8806-c6f0-49e5-af5d-a01a75ed0724(Relax.structure)/5520713118741952521" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Relax.sandbox/Relax.sandbox/&lt;no name&gt;[RelationalModel]">
+    <entry file="mps://node://Relax/Relax.typesystem/&lt;no name&gt;[NonTypesystemRule]" />
+    <entry file="mps://node://Relax/Relax.typesystem/&lt;no name&gt;[NonTypesystemRule]" />
+    <entry file="mps://node://Relax/Relax.typesystem/checkUniqueAttributeName">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="487" />
-                <property name="caretXRelative" value="36" />
+                <property name="caretX" value="583" />
+                <property name="caretXRelative" value="132" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" />
+                  <node node_reference="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684639389" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2460,7 +1762,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:cca15941-0ecb-413b-917c-eb15f541e658(Relax.sandbox)/2516898817371486343" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2468,6 +1770,38 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Relax/Relax.structure/Attribute">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_tg6zfx_f1b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)/1962934134684565147" />
         </state>
       </provider>
     </entry>

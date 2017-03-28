@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
   <root>
+    <file name="AbstractRelation_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.AbstractRelation_BehaviorDescriptor" />
+    </file>
     <file name="AbstractType_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.AbstractType_BehaviorDescriptor" />
     </file>
@@ -25,8 +28,14 @@
     <file name="PrimaryKey_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.PrimaryKey_BehaviorDescriptor" />
     </file>
+    <file name="RelationRef_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.RelationRef_BehaviorDescriptor" />
+    </file>
     <file name="Relation_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.Relation_BehaviorDescriptor" />
+    </file>
+    <file name="RelationalModel_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="Relax.behavior.RelationalModel_BehaviorDescriptor" />
     </file>
     <file name="SemanticTypeRef_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="Relax.behavior.SemanticTypeRef_BehaviorDescriptor" />
