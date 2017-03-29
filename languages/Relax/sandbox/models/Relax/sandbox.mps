@@ -67,7 +67,7 @@
           <node concept="2hULH$" id="2bHOyeD1kYG" role="2hVBHW" />
         </node>
         <node concept="2hVBH9" id="2bHOyeD1kYJ" role="2hUXfS">
-          <property role="TrG5h" value="skraceniNazic" />
+          <property role="TrG5h" value="skraceniNaziv" />
           <node concept="2hULH$" id="2bHOyeD1kYP" role="2hVBHW" />
         </node>
       </node>

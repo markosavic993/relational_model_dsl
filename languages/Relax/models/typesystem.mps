@@ -167,7 +167,7 @@
                     <node concept="3clFbS" id="7JoHgj9Af" role="3clFbx">
                       <node concept="2MkqsV" id="7JoHgjg$o" role="3cqZAp">
                         <node concept="Xl_RD" id="7JoHgjg$$" role="2MkJ7o">
-                          <property role="Xl_RC" value="Attribute with this name exists" />
+                          <property role="Xl_RC" value="Attribute with this name already exists" />
                         </node>
                         <node concept="1YBJjd" id="1GXJz87nu2t" role="2OEOjV">
                           <ref role="1YBMHb" node="1GXJz87nbUu" resolve="currentAttribute" />
