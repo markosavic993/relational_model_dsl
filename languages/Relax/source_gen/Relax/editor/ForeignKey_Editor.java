@@ -130,14 +130,14 @@ public class ForeignKey_Editor extends DefaultNodeEditor {
   }
   private EditorCell createRefCell_5uu2sg_g0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("primary_keys");
-    provider.setNoTargetText("<no primary_keys>");
+    provider.setRole("primary_key_ref");
+    provider.setNoTargetText("<no primary_key_ref>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new ForeignKey_Editor._Inline_5uu2sg_a6a());
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {
       editorCell.setReferenceCell(true);
-      editorCell.setRole("primary_keys");
+      editorCell.setRole("primary_key_ref");
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

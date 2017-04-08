@@ -97,7 +97,7 @@
   <node concept="1M2fIO" id="4t8WGRbz_d1">
     <ref role="1M2myG" to="dtct:4MtwPjttysR" resolve="ForeignKey" />
     <node concept="1N5Pfh" id="4t8WGRbz_d2" role="1Mr941">
-      <ref role="1N5Vy1" to="dtct:2bHOyeD1gYe" resolve="primary_keys" />
+      <ref role="1N5Vy1" to="dtct:2bHOyeD1gYe" resolve="primary_key_ref" />
       <node concept="1MUpDS" id="4t8WGRbz_d4" role="1N6uqs">
         <node concept="3clFbS" id="4t8WGRbz_d5" role="2VODD2">
           <node concept="3cpWs8" id="4t8WGRbz_dQ" role="3cqZAp">

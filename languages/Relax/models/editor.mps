@@ -230,7 +230,7 @@
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="1iCGBv" id="2bHOyeD1gZE" role="3EZMnx">
-        <ref role="1NtTu8" to="dtct:2bHOyeD1gYe" resolve="primary_keys" />
+        <ref role="1NtTu8" to="dtct:2bHOyeD1gYe" resolve="primary_key_ref" />
         <node concept="1sVBvm" id="2bHOyeD1gZG" role="1sWHZn">
           <node concept="3F0A7n" id="2bHOyeD1h01" role="2wV5jI">
             <property role="1Intyy" value="true" />

@@ -25,7 +25,7 @@
       <concept id="5520713118742124460" name="Relax.structure.NumberType" flags="ng" index="2hULjS" />
       <concept id="5520713118742124592" name="Relax.structure.TextType" flags="ng" index="2hULH$" />
       <concept id="5520713118742095671" name="Relax.structure.ForeignKey" flags="ng" index="2hUUhz">
-        <reference id="2516898817371344782" name="primary_keys" index="2bUdQH" />
+        <reference id="2516898817371344782" name="primary_key_ref" index="2bUdQH" />
         <reference id="2516898817371280002" name="base_relation" index="2bUs2x" />
       </concept>
       <concept id="5520713118742106281" name="Relax.structure.SemanticType" flags="ng" index="2hUXfX">
@@ -135,8 +135,13 @@
           <ref role="2bU3JK" node="2bHOyeD1kYz" resolve="zanrTip" />
         </node>
       </node>
-      <node concept="2hUUhz" id="4t8WGRb$a_W" role="2hUUgH">
-        <property role="TrG5h" value="spklj" />
+      <node concept="2hUUhz" id="4t8WGRb$jxS" role="2hUUgH">
+        <property role="TrG5h" value="reziser" />
+        <ref role="2bUs2x" node="2bHOyeD1kZ7" resolve="Reziser" />
+        <ref role="2bUdQH" node="2bHOyeD1kZ9" resolve="jmbg" />
+      </node>
+      <node concept="2hUUhz" id="4t8WGRb$eyM" role="2hUUgH">
+        <property role="TrG5h" value="film" />
         <ref role="2bUs2x" node="2bHOyeD1kY7" resolve="Film" />
         <ref role="2bUdQH" node="2bHOyeD1kY9" resolve="id" />
       </node>

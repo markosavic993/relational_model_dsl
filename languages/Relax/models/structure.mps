@@ -144,7 +144,7 @@
     <node concept="1TJgyj" id="2bHOyeD1gYe" role="1TKVEi">
       <property role="IQ2ns" value="2516898817371344782" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="primary_keys" />
+      <property role="20kJfa" value="primary_key_ref" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4MtwPjtsZwt" resolve="Attribute" />
     </node>
