@@ -28,7 +28,7 @@ public class checkUniqueAttributeName_NonTypesystemRule extends AbstractNonTypes
             if (SPropertyOperations.getString(attr, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).equalsIgnoreCase(SPropertyOperations.getString(currentAttribute, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
               {
                 MessageTarget errorTarget = new NodeMessageTarget();
-                IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(currentAttribute, "Attribute with this name exists", "r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)", "2178730882304280", null, errorTarget);
+                IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(currentAttribute, "Attribute with this name already exists", "r:cbde6dfd-e89b-4193-8175-2e2121f2264d(Relax.typesystem)", "2178730882304280", null, errorTarget);
               }
             }
           }

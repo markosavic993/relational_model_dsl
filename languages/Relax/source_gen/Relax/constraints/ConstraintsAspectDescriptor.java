@@ -8,6 +8,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import java.util.Map;
 import java.util.HashMap;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -20,6 +21,11 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
       Integer preIndex = indices_2qnle6_a0c.get(cncpt);
       int switchIndex = (preIndex == null ? -1 : preIndex);
       switch (switchIndex) {
+        case 0:
+          if (true) {
+            return new ForeignKey_Constraints();
+          }
+          break;
         default:
           // default 
       }
@@ -34,5 +40,5 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_2qnle6_a0c = buildConceptIndices();
+  private static final Map<SAbstractConcept, Integer> indices_2qnle6_a0c = buildConceptIndices(MetaAdapterFactory.getConcept(0x29b7973dd23d4299L, 0x80d1b1e9c7b757ebL, 0x4c9d8354dd762737L, "Relax.structure.ForeignKey"));
 }

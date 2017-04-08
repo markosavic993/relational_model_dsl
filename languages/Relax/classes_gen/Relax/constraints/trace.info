@@ -1,8 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="12,0,39,0" name="Relax.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,45,0" name="Relax.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c3b8ea72-3cd8-466a-a74c-d224df7f3a6f(Relax.constraints)/5136622340713370433">
+    <file name="ForeignKey_Constraints.java">
+      <node id="5136622340713370433" at="27,35,28,134" concept="8" />
+      <node id="5136622340713370433" at="32,90,33,131" concept="4" />
+      <node id="5136622340713370433" at="36,44,37,20" concept="5" />
+      <node id="5136622340713370486" at="44,142,45,63" concept="4" />
+      <node id="5136622340713417425" at="46,561,47,73" concept="1" />
+      <node id="5136622340713475892" at="48,13,49,0" concept="6" />
+      <node id="5136622340713487419" at="49,0,50,33" concept="5" />
+      <node id="5136622340713370433" at="53,63,54,58" concept="5" />
+      <node id="5136622340713370433" at="58,7,59,22" concept="5" />
+      <node id="5136622340713370433" at="61,0,62,0" concept="7" trace="breakingNode_kkr2pd_a0a1a0a0a1a0b0a1a2" />
+      <node id="5136622340713370433" at="27,0,30,0" concept="0" trace="ForeignKey_Constraints#()V" />
+      <node id="5136622340713372665" at="45,63,48,13" concept="2" />
+      <node id="5136622340713370433" at="35,0,39,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="5136622340713370433" at="52,0,56,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5136622340713370433" at="43,0,52,0" concept="3" trace="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+      <node id="5136622340713370433" at="41,56,56,10" concept="5" />
+      <node id="5136622340713370433" at="39,0,58,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5136622340713370433" at="33,131,58,7" concept="1" />
+      <node id="5136622340713370433" at="31,0,61,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5136622340713370433" at="27,35,28,134" />
+      <scope id="5136622340713370433" at="36,44,37,20" />
+      <scope id="5136622340713372667" at="46,561,47,73" />
+      <scope id="5136622340713370433" at="53,63,54,58" />
+      <scope id="5136622340713370433" at="27,0,30,0" />
+      <scope id="5136622340713372665" at="45,63,48,13">
+        <var name="attribute" id="5136622340713372668" />
+      </scope>
+      <scope id="5136622340713370433" at="35,0,39,0" />
+      <scope id="5136622340713370433" at="52,0,56,0" />
+      <scope id="5136622340713370437" at="44,142,50,33">
+        <var name="attributes_ok" id="5136622340713370489" />
+      </scope>
+      <scope id="5136622340713370433" at="43,0,52,0">
+        <var name="_context" id="5136622340713370433" />
+        <var name="operationContext" id="5136622340713370433" />
+      </scope>
+      <scope id="5136622340713370433" at="41,56,56,10" />
+      <scope id="5136622340713370433" at="39,0,58,0" />
+      <scope id="5136622340713370433" at="32,90,59,22">
+        <var name="references" id="5136622340713370433" />
+      </scope>
+      <scope id="5136622340713370433" at="31,0,61,0" />
+      <unit id="5136622340713370433" at="42,19,56,9" name="Relax.constraints.ForeignKey_Constraints$2" />
+      <unit id="5136622340713370433" at="34,160,58,5" name="Relax.constraints.ForeignKey_Constraints$1" />
+      <unit id="5136622340713370433" at="26,0,63,0" name="Relax.constraints.ForeignKey_Constraints" />
     </file>
   </root>
 </debug-info>
